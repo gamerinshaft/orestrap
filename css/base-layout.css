@@ -673,7 +673,21 @@
 .hidden-xs{
   display: none;
 }
-
+.flex-fluid-xs-66{
+  display: block;
+  max-width: 66.6%;
+  flex: 0 0 66.6%;
+}
+.flex-fluid-xs-33{
+  display: block;
+  max-width: 33.3%;
+  flex: 0 0 33.3%;
+}
+.flex-fluid-xs-16{
+  display: block;
+  max-width: 16.6%;
+  flex: 0 0 16.6%;
+}
 .flex-xs-auto{
   display: block;
   flex: 1;
@@ -780,6 +794,21 @@
 }
 
 @media (min-width: 768px){
+  .flex-fluid-sm-66{
+    display: block;
+    max-width: 66.6%;
+    flex: 0 0 66.6%;
+  }
+  .flex-fluid-sm-33{
+    display: block;
+    max-width: 33.3%;
+    flex: 0 0 33.3%;
+  }
+  .flex-fluid-sm-16{
+    display: block;
+    max-width: 16.6%;
+    flex: 0 0 16.6%;
+  }
   .hidden-sm{
     display: none;
   }
@@ -890,6 +919,21 @@
 }
 
 @media (min-width: 960px){
+  .flex-fluid-md-66{
+    display: block;
+    max-width: 66.6%;
+    flex: 0 0 66.6%;
+  }
+  .flex-fluid-md-33{
+    display: block;
+    max-width: 33.3%;
+    flex: 0 0 33.3%;
+  }
+  .flex-fluid-md-16{
+    display: block;
+    max-width: 16.6%;
+    flex: 0 0 16.6%;
+  }
   .hidden-md{
     display: none;
   }
@@ -1000,6 +1044,21 @@
 }
 
 @media (min-width: 1280px){
+  .flex-fluid-lg-66{
+    display: block;
+    max-width: 66.6%;
+    flex: 0 0 66.6%;
+  }
+  .flex-fluid-lg-33{
+    display: block;
+    max-width: 33.3%;
+    flex: 0 0 33.3%;
+  }
+  .flex-fluid-lg-16{
+    display: block;
+    max-width: 16.6%;
+    flex: 0 0 16.6%;
+  }
   .hidden-lg{
     display: none;
   }
