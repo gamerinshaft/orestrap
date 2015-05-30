@@ -1,6 +1,6 @@
 
 /*
-# 俺strap
+# 俺'strap
 
 ## Design Oneハッカソン大会のためのスタイルテーマ
 bootstrapのように利用して簡単にサイトを構築するためのチートシート兼CSSライブラリ
@@ -27,6 +27,9 @@ bootstrapのように利用して簡単にサイトを構築するためのチ�
 /* ### form ### */
 @import url("form.css");
 
+/* ### helper ### */
+@import url("helper.css");
+
 /* ### another ### */
 @import url("another.css");
 
@@ -34,4 +37,14 @@ bootstrapのように利用して簡単にサイトを構築するためのチ�
   position: relative;
   width:  320px;
   height: 180px;
+}
+
+.row .frame{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.column .frame{
+  height: 100%;
+  box-sizing: border-box;
 }

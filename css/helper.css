@@ -1,0 +1,14 @@
+
+/*
+
+## padding-8
+```
+<div class="testbox1 padding-8">
+  hello
+</div>
+```
+
+*/
+.padding-8{
+  padding: 8px
+}

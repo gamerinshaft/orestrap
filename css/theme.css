@@ -1,3 +1,18 @@
+
+.testbox1{
+  display: block;
+  color: white;
+}
+
+.row .testbox1{
+  background-color: #2979ff;
+}
+
+.column .testbox1{
+  background-color: #c51162;
+}
+/*====================*/
+
 html, body, .kalei {
   height: 100% !important;
   background: #f6f4f4;
