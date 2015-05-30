@@ -1,7 +1,48 @@
 
 /*
-# Flex Layout
+# Layout
 
+
+## Container
+
+一番大きな枠組みのcontainer
+
+```
+<div class="container">
+  <div class="testbox1 padding-8">This is Container</div>
+</div>
+<br>
+<div class="testbox1 padding-8">This is not Container</div>
+```
+*/
+
+.container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*
 ## フレキシブルデザイン
 
 ```
