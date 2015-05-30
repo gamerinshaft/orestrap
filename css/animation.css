@@ -1,0 +1,75 @@
+/*
+## Animations
+
+## ここではアニメーションに関するcomponentを記述する
+よろしくね
+
+ */
+
+
+/*
+## Animation screen
+```
+<div class="testbox moveScreen">
+
+</div>
+
+```
+*/
+
+
+.testbox{
+  position: relative;
+  width:  320px;
+  height: 180px;
+  background-image: url("http://switch-box.net/wp-content/uploads/2013/07/wallpaper-soap-bubble-photo-06.jpg?4af819");
+}
+
+.moveScreen{
+  animation-name: moveScreen;
+  -webkit-animation-name: moveScreen;
+
+  animation-duration: 16s;
+  -webkit-animation-duration: 16s;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+
+  animation-direction:alternate;
+  -webkit−animation-direction:alternate;
+
+  background-position: center;
+  background-size: cover;
+
+ }
+
+@keyframes moveScreen{
+  0%{
+    background-image: url("http://switch-box.net/wp-content/uploads/2013/07/wallpaper-soap-bubble-photo-06.jpg?4af819");
+  }
+
+  50%{
+    background-image: url("http://pic.prepics-cdn.com/pib34416466/6381710.jpeg");
+  }
+
+  100%{
+    background-image: url("http://switch-box.net/wp-content/uploads/2013/07/wallpaper-soap-bubble-photo-06.jpg?4af819");
+  }
+}
+
+@-webkit-keyframes moveScreen {
+  0%{
+    background-image: url("http://switch-box.net/wp-content/uploads/2013/07/wallpaper-soap-bubble-photo-06.jpg?4af819");
+  }
+
+  50%{
+    background-image: url("http://pic.prepics-cdn.com/pib34416466/6381710.jpeg");
+  }
+
+  100%{
+    background-image: url("http://switch-box.net/wp-content/uploads/2013/07/wallpaper-soap-bubble-photo-06.jpg?4af819");
+  }
+}
