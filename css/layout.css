@@ -2,6 +2,42 @@
 /*
 # Flex Layout
 
+## フレキシブルデザイン
+
+```
+<div class="row">
+  <div class="flex flex-xs-auto">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-auto
+    </div>
+  </div>
+  <div class="flex flex-xs-auto">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-auto
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="flex flex-lg-auto flex-md-20">
+    <div class="frame z1 padding-8 testbox1">
+      flex
+    </div>
+  </div>
+  <div class="flex flex-lg-auto flex-md-20">
+    <div class="frame z1 padding-8 testbox1">
+      flex
+    </div>
+  </div>
+  <div class="flex flex-lg-auto flex-md-20">
+    <div class="frame z1 padding-8 testbox1">
+      flex
+    </div>
+  </div>
+</div>
+
+```
+
 ## 横並びフレキシブルデザイン
 
 横並びで揃える時
@@ -13,54 +49,77 @@
       flex-xs-20
     </div>
   </div>
-  <div class="flex flex-xs-18">
+  <div class="flex flex-lg-18">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-18
+      flex-lg-18
     </div>
   </div>
-  <div class="flex flex-xs-2">
+  <div class="flex flex-lg-2">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-2
+      flex-lg-2
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-md-10">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-md-10
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-md-10">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-md-10
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-sm-6">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-sm-6
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-sm-6">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-sm-6
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-sm-6">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-sm-6
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-sm-2">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-2
-    </div>
-  </div>
-  <div class="flex flex-xs-1">
-    <div class="frame z1 padding-8 testbox1">
-      flex-xs-2
+      flex-sm-2
     </div>
   </div>
 </div>
 
 ```
+
+## 横並びフレキシブルデザイン(反転)
+
+```
+<div class="row reverse">
+  <div class="flex flex-xs-12">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-12
+    </div>
+  </div>
+  <div class="flex flex-xs-8">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-8
+    </div>
+  </div>
+  <div class="flex flex-md-5">
+    <div class="frame z1 padding-8 testbox1">
+      flex-md-5
+    </div>
+  </div>
+  <div class="flex flex-md-15">
+    <div class="frame z1 padding-8 testbox1">
+      flex-md-15
+    </div>
+  </div>
+</div>
+```
+
 
 ## 縦並びフレキシブルデザイン
 
@@ -71,49 +130,72 @@
       flex-xs-20
     </div>
   </div>
-  <div class="flex flex-xs-18">
+  <div class="flex flex-lg-18">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-18
+      flex-lg-18
     </div>
   </div>
-  <div class="flex flex-xs-2">
+  <div class="flex flex-lg-2">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-2
+      flex-lg-2
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-md-10">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-md-10
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-md-10">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-md-10
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-sm-6">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-sm-6
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-sm-6">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-sm-6
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-sm-6">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-sm-6
     </div>
   </div>
-  <div class="flex flex-xs-1">
+  <div class="flex flex-sm-2">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-sm-2
     </div>
   </div>
-  <div class="flex flex-xs-1">
+</div>
+```
+
+
+## 縦並びフレキシブルデザイン(反転)
+
+```
+<div class="column reverse">
+  <div class="flex flex-xs-12">
     <div class="frame z1 padding-8 testbox1">
-      flex-xs-1
+      flex-xs-12
+    </div>
+  </div>
+  <div class="flex flex-xs-8">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-8
+    </div>
+  </div>
+  <div class="flex flex-md-5">
+    <div class="frame z1 padding-8 testbox1">
+      flex-md-5
+    </div>
+  </div>
+  <div class="flex flex-md-15">
+    <div class="frame z1 padding-8 testbox1">
+      flex-md-15
     </div>
   </div>
 </div>
@@ -136,6 +218,12 @@
   box-sizing: border-box;
 }
 
+
+.row.reverse{
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+
 .column{
 
   display: flex;
@@ -150,12 +238,22 @@
   box-sizing: border-box;
 }
 
+.column.reverse{
+  flex-direction: column-reverse;
+  -webkit-flex-direction: column-reverse;
+}
+
 .flex{
   box-sizing: border-box;
   align-self: auto;
   padding: 4px;
+  max-width: 100%;
+  flex: 100%;
 }
 
+.flex-xs-auto{
+  flex: 1;
+}
 .flex-xs-20{
   max-width: 100%;
   flex: 100%;
@@ -235,5 +333,263 @@
 .flex-xs-1{
   max-width: 5%;
   flex: 0 0 5%;
+}
+
+@media (min-width: 768px){
+  .flex-sm-auto{
+    flex: 1;
+  }
+  .flex-sm-20{
+    max-width: 100%;
+    flex: 100%;
+  }
+  .flex-sm-19{
+    max-width: 95%;
+    flex: 0 0 95%;
+  }
+  .flex-sm-18{
+    max-width: 90%;
+    flex: 0 0 90%;
+  }
+  .flex-sm-17{
+    max-width: 85%;
+    flex: 0 0 85%;
+  }
+  .flex-sm-16{
+    max-width: 80%;
+    flex: 0 0 80%;
+  }
+  .flex-sm-15{
+    max-width: 75%;
+    flex: 0 0 75%;
+  }
+  .flex-sm-14{
+    max-width: 70%;
+    flex: 0 0 70%;
+  }
+  .flex-sm-13{
+    max-width: 65%;
+    flex: 0 0 65%;
+  }
+  .flex-sm-12{
+    max-width: 60%;
+    flex: 0 0 60%;
+  }
+  .flex-sm-11{
+    max-width: 55%;
+    flex: 0 0 55%;
+  }
+  .flex-sm-10{
+    max-width:  50%;
+    flex: 0 0 50%;
+  }
+  .flex-sm-9{
+    max-width: 45%;
+    flex: 0 0 45%;
+  }
+  .flex-sm-8{
+    max-width: 40%;
+    flex: 0 0 40%;
+  }
+  .flex-sm-7{
+    max-width: 35%;
+    flex: 0 0 35%;
+  }
+  .flex-sm-6{
+    max-width: 30%;
+    flex: 0 0 30%;
+  }
+  .flex-sm-5{
+    max-width: 25%;
+    flex: 0 0 25%;
+  }
+  .flex-sm-4{
+    max-width: 20%;
+    flex: 0 0 20%;
+  }
+  .flex-sm-3{
+    max-width: 15%;
+    flex: 0 0 15%;
+  }
+  .flex-sm-2{
+    max-width: 10%;
+    flex: 0 0 10%;
+  }
+  .flex-sm-1{
+    max-width: 5%;
+    flex: 0 0 5%;
+  }
+}
+
+@media (min-width: 960px){
+  .flex-md-auto{
+    flex: 1;
+  }
+  .flex-md-20{
+    max-width: 100%;
+    flex: 100%;
+  }
+  .flex-md-19{
+    max-width: 95%;
+    flex: 0 0 95%;
+  }
+  .flex-md-18{
+    max-width: 90%;
+    flex: 0 0 90%;
+  }
+  .flex-md-17{
+    max-width: 85%;
+    flex: 0 0 85%;
+  }
+  .flex-md-16{
+    max-width: 80%;
+    flex: 0 0 80%;
+  }
+  .flex-md-15{
+    max-width: 75%;
+    flex: 0 0 75%;
+  }
+  .flex-md-14{
+    max-width: 70%;
+    flex: 0 0 70%;
+  }
+  .flex-md-13{
+    max-width: 65%;
+    flex: 0 0 65%;
+  }
+  .flex-md-12{
+    max-width: 60%;
+    flex: 0 0 60%;
+  }
+  .flex-md-11{
+    max-width: 55%;
+    flex: 0 0 55%;
+  }
+  .flex-md-10{
+    max-width:  50%;
+    flex: 0 0 50%;
+  }
+  .flex-md-9{
+    max-width: 45%;
+    flex: 0 0 45%;
+  }
+  .flex-md-8{
+    max-width: 40%;
+    flex: 0 0 40%;
+  }
+  .flex-md-7{
+    max-width: 35%;
+    flex: 0 0 35%;
+  }
+  .flex-md-6{
+    max-width: 30%;
+    flex: 0 0 30%;
+  }
+  .flex-md-5{
+    max-width: 25%;
+    flex: 0 0 25%;
+  }
+  .flex-md-4{
+    max-width: 20%;
+    flex: 0 0 20%;
+  }
+  .flex-md-3{
+    max-width: 15%;
+    flex: 0 0 15%;
+  }
+  .flex-md-2{
+    max-width: 10%;
+    flex: 0 0 10%;
+  }
+  .flex-md-1{
+    max-width: 5%;
+    flex: 0 0 5%;
+  }
+}
+
+@media (min-width: 1280px){
+  .flex-lg-auto{
+    flex: 1;
+  }
+  .flex-lg-20{
+    max-width: 100%;
+    flex: 100%;
+  }
+  .flex-lg-19{
+    max-width: 95%;
+    flex: 0 0 95%;
+  }
+  .flex-lg-18{
+    max-width: 90%;
+    flex: 0 0 90%;
+  }
+  .flex-lg-17{
+    max-width: 85%;
+    flex: 0 0 85%;
+  }
+  .flex-lg-16{
+    max-width: 80%;
+    flex: 0 0 80%;
+  }
+  .flex-lg-15{
+    max-width: 75%;
+    flex: 0 0 75%;
+  }
+  .flex-lg-14{
+    max-width: 70%;
+    flex: 0 0 70%;
+  }
+  .flex-lg-13{
+    max-width: 65%;
+    flex: 0 0 65%;
+  }
+  .flex-lg-12{
+    max-width: 60%;
+    flex: 0 0 60%;
+  }
+  .flex-lg-11{
+    max-width: 55%;
+    flex: 0 0 55%;
+  }
+  .flex-lg-10{
+    max-width:  50%;
+    flex: 0 0 50%;
+  }
+  .flex-lg-9{
+    max-width: 45%;
+    flex: 0 0 45%;
+  }
+  .flex-lg-8{
+    max-width: 40%;
+    flex: 0 0 40%;
+  }
+  .flex-lg-7{
+    max-width: 35%;
+    flex: 0 0 35%;
+  }
+  .flex-lg-6{
+    max-width: 30%;
+    flex: 0 0 30%;
+  }
+  .flex-lg-5{
+    max-width: 25%;
+    flex: 0 0 25%;
+  }
+  .flex-lg-4{
+    max-width: 20%;
+    flex: 0 0 20%;
+  }
+  .flex-lg-3{
+    max-width: 15%;
+    flex: 0 0 15%;
+  }
+  .flex-lg-2{
+    max-width: 10%;
+    flex: 0 0 10%;
+  }
+  .flex-lg-1{
+    max-width: 5%;
+    flex: 0 0 5%;
+  }
 }
 

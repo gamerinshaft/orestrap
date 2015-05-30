@@ -7,7 +7,9 @@
 .row .testbox1{
   background-color: #2979ff;
 }
-
+.row-fluid .testbox1{
+  background-color: #ffc400;
+}
 .column .testbox1{
   background-color: #c51162;
 }
