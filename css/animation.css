@@ -8,21 +8,21 @@ login-wrapと、中身の大きさは合わせること。
 
 ```
 <div class="login-wrap animate">
-  <div class="login-mask">
+  <div class="login-mask testbox5">
     <div class="frame frame--login z1">
       <div class="header">
-        <div class="title visibleContent">
+        <div class="title visibleContent testbox5">
            会員登録
         </div>
       </div>
       <div class="content">
-        <p class="visibleContent">
+        <p class="visibleContent testbox5">
           これはコンン
         </p>
       </div>
     </div>
   </div>
-  <div class="login-button">
+  <div class="login-button testbox5">
   </div>
 </div>
 
@@ -58,7 +58,7 @@ login-wrapと、中身の大きさは合わせること。
 }
 
 .login-wrap{
-  width: 400px;
+  width: 200px;
   height: 300px;
   position: relative;
 }

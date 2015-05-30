@@ -16,6 +16,7 @@ bootstrapのように利用して簡単にサイトを構築するためのチ�
 
 
 /* ### layout ### */
+@import url("base-layout.css");
 @import url("layout.css");
 
 /* ### animation ### */

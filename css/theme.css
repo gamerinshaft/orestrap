@@ -1,9 +1,24 @@
+.login-wrap.animate .visibleContent.testbox5, .login-wrap.animate .login-mask.testbox5, .login-wrap.animate .login-button.testbox5, .login-wrap.animate .login-button.testbox5:after .login-wrap.animate .visibleContent.testbox5{
+  animation-iteration-count: infinite !important;
+  -webkit-animation-iteration-count: infinite !important;
+  animation-duration: 8s !important;
+  -webkit-animation-duration: 8s !important;
+  animation-direction: normal !important;
+  -webkit-animation-direction: normal !important;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+
 .testbox{
   position: relative;
   width:  320px;
   height: 180px;
 }
 
+.testbox4{
+  width: 400px;
+  height: 400px;
+}
 .testbox1{
   display: block;
   color: white;
@@ -108,6 +123,7 @@ body {
 
 .kalei-styleguide-menu {
   height: 100%;
+  width: 300px;
   overflow-y: auto;
   overflow-x: hidden;
 }
