@@ -18,19 +18,12 @@
 */
 
 
-.testbox{
-  position: relative;
-  width:  320px;
-  height: 180px;
-  background-image: url("http://switch-box.net/wp-content/uploads/2013/07/wallpaper-soap-bubble-photo-06.jpg?4af819");
-}
-
 .moveScreen{
   animation-name: moveScreen;
   -webkit-animation-name: moveScreen;
 
-  animation-duration: 16s;
-  -webkit-animation-duration: 16s;
+  animation-duration: 160s;
+  -webkit-animation-duration: 160s;
 
   animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
@@ -48,6 +41,7 @@
 
 @keyframes moveScreen{
   0%{
+    background-position: 0 0;
     background-image: url("http://switch-box.net/wp-content/uploads/2013/07/wallpaper-soap-bubble-photo-06.jpg?4af819");
   }
 

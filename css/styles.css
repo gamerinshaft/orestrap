@@ -15,6 +15,23 @@ bootstrapのように利用して簡単にサイトを構築するためのチ�
 */
 
 
+/* ### layout ### */
+@import url("layout.css");
+
 /* ### animation ### */
 @import url("animation.css");
 
+/* ### frame ### */
+@import url("frame.css");
+
+/* ### form ### */
+@import url("form.css");
+
+/* ### another ### */
+@import url("another.css");
+
+.testbox{
+  position: relative;
+  width:  320px;
+  height: 180px;
+}
