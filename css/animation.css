@@ -1,22 +1,319 @@
 /*
-## Animations
+# Animations
 
-## ここではアニメーションに関するcomponentを記述する
-よろしくね
+## login-button
 
- */
+これはログインボタンである
+login-wrapと、中身の大きさは合わせること。
 
-
-/*
-## Animation screen
 ```
-<div class="testbox moveScreen">
-
+<div class="login-wrap animate">
+  <div class="login-mask">
+    <div class="frame frame--login z1">
+      <div class="header">
+        <div class="title visibleContent">
+           会員登録
+        </div>
+      </div>
+      <div class="content">
+        <p class="visibleContent">
+          これはコンン
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="login-button">
+  </div>
 </div>
 
 ```
 */
 
+.login-wrap.animate{
+
+}
+
+.login-wrap.animate .visibleContent{
+
+  animation-name: visibleContent;
+  -webkit-animation-name: visibleContent;
+
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+
+  animation-direction:alternate;
+  -webkit−animation-direction:alternate;
+
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+.login-wrap{
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+.login-mask{
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(238,238,238);
+  position: absolute;
+  z-index: 20;
+  border-radius: 50%;
+  right: 0;
+  bottom: 0;
+}
+.login-wrap.animate .login-mask{
+  animation-name: moveLoginMask;
+  -webkit-animation-name: moveLoginMask;
+
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+
+  animation-duration: 0.2s;
+  -webkit-animation-duration: 0.2s;
+
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+
+  animation-direction:alternate;
+  -webkit−animation-direction:alternate;
+
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+.login-mask:after{
+  display: block;
+  content: "";
+  overflow: hidden;
+}
+.login-button{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 21;
+  border-radius: 50%;
+  right: 0;
+  bottom: 0;
+  background-color: #AD1457;
+  overflow: hidden;
+}
+.login-wrap.animate .login-button{
+  animation-name: moveLoginButton;
+  -webkit-animation-name: moveLoginButton;
+
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+
+  animation-duration: 0.4s;
+  -webkit-animation-duration: 0.4s;
+
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+
+  animation-direction:alternate;
+  -webkit−animation-direction:alternate;
+
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+.login-button:after{
+  transform: scale(0);
+  -webkittransform: scale(0);
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: solid 1px white;
+  text-shadow: 1px 1px 1px rgb(255,255,255);
+  border-radius: 50%;
+  left: 10px;
+  position: relative;
+  top: 10px;
+  box-sizing: border-box;
+}
+.login-wrap.animate .login-button:after{
+  animation-name: moveLoginPulse;
+  -webkit-animation-name: moveLoginPulse;
+
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+
+  animation-duration: 0.8s;
+  -webkit-animation-duration: 0.8s;
+
+  transform-origin: center;
+  -webkit-transform-origin: center;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+@keyframes visibleContent{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes visibleContent {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes moveLoginPulse{
+  0%{
+    transform: scale(0);
+    -webkittransform: scale(0);
+  }
+
+  45%{
+    opacity: 0;
+    display: none;
+  }
+  100%{
+    transform: scale(2.5);
+    -webkittransform: scale(2.5);
+  }
+}
+
+@-webkit-keyframes moveLoginPulse {
+  0%{
+    transform: scale(0);
+    -webkittransform: scale(0);
+  }
+
+  45%{
+    opacity: 0;
+    display: none;
+  }
+  100%{
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+}
+@keyframes moveLoginButton{
+  0%{
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.14),0 4px 5px 0 rgba(0,0,0,.098),0 1px 10px 0 rgba(0,0,0,.084);
+  }
+
+  50%{
+    box-shadow: 0px 2px 4px -1px transparent;
+  }
+
+  99%{
+    opacity: 1;
+  }
+  100%{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes moveLoginButton {
+  0%{
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.14),0 4px 5px 0 rgba(0,0,0,.098),0 1px 10px 0 rgba(0,0,0,.084);
+  }
+
+  50%{
+    box-shadow: 0px 2px 4px -1px transparent;
+  }
+
+  99%{
+    opacity: 1;
+  }
+  100%{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes moveLoginMask{
+  0%{
+    width: 0%;
+    margin-left: 98%;
+    margin-right: 2%;
+    height: 0%;
+    margin-top: 98%;
+    margin-bottom: 2%;
+  }
+  60%{
+    border-radius:  50% 0 0 0;
+  }
+  100%{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100%;
+    border-radius: 0%;
+    right: 0px;
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes moveLoginMask {
+  0%{
+    width: 0%;
+    margin-left: 98%;
+    margin-right: 2%;
+    height: 0%;
+    margin-top: 98%;
+    margin-bottom: 2%;
+  }
+  60%{
+    border-radius:  50% 0 0 0;
+  }
+  100%{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100%;
+    border-radius: 0%;
+    right: 0px;
+    left: 0px;
+  }
+}
+
+.login-button:hover:after{
+  background-color: rgb(238,238,238);
+}
 
 .moveScreen{
   animation-name: moveScreen;

@@ -4,10 +4,42 @@
 ## ここではアニメーションに関するcomponentを記述する
 よろしくね
 
+```
+<div class="row">
+  <div class="flex flex-xs-auto"></div>
+  <div class="flex flex-xs-6">
+    <div class="frame frame--login z1">
+      <div class="header">
+        <div class="title">
+           会員登録
+        </div>
+      </div>
+      <div class="content">
+        これはコンンテンツ部分です。
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-xs-auto"></div>
+</div>
+```
  */
 
-.login{
-  width: 160px;
-  height: 320px;
-  border: solid 1px #ddd;
+.frame.frame--login{
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  background-color: #AD1457;
+}
+.frame.frame--login > .header{
+  background-color: #c51162;
+  color: white;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.14),0 4px 5px 0 rgba(0,0,0,.098),0 1px 10px 0 rgba(0,0,0,.084);
+  padding: 8px;
+  position: relative;
+  z-index: 5;
+}
+
+.frame.frame--login > .content{
+  background-color: #AD1457;
+  color: white;
+  padding: 8px;
 }
