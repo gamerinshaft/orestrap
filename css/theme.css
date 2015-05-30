@@ -1,3 +1,34 @@
+.frame.card .status .bar.v100{
+  width: 100%;
+}
+.frame.card .status .bar.v90{
+  width: 90%;
+}
+.frame.card .status .bar.v80{
+  width: 80%;
+}
+.frame.card .status .bar.v70{
+  width: 70%;
+}
+.frame.card .status .bar.v60{
+  width: 60%;
+}
+.frame.card .status .bar.v50{
+  width: 50%;
+}
+.frame.card .status .bar.v40{
+  width: 40%;
+}
+.frame.card .status .bar.v30{
+  width: 30%;
+}
+.frame.card .status .bar.v20{
+  width: 20%;
+}
+.frame.card .status .bar.v10{
+  width: 10%;
+}
+
 .login-wrap.animate .visibleContent.testbox5, .login-wrap.animate .login-mask.testbox5, .login-wrap.animate .login-button.testbox5, .login-wrap.animate .login-button.testbox5:after .login-wrap.animate .visibleContent.testbox5{
   animation-iteration-count: infinite !important;
   -webkit-animation-iteration-count: infinite !important;

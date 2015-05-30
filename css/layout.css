@@ -21,11 +21,11 @@
 
 valueに関してはこのようにして取得するイメージ。
 動的化はジェネレータの都合上割愛。
-
+back 500 float 700 bar 800
 ```
 <div class="row">
   <div class="flex flex-lg-auto flex-fluid-sm-33">
-    <div class="frame z1 card aspectwrapper-2by3">
+    <div class="frame z1 card aspectwrapper-2by3 ruby">
       <div class="content">
         <div class="top z2 aspectwrapper-3by2">
           <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
@@ -54,25 +54,25 @@ valueに関してはこのようにして取得するイメージ。
     </div>
   </div>
   <div class="flex flex-lg-auto flex-fluid-sm-33">
-    <div class="frame z1 card aspectwrapper-2by3">
+    <div class="frame z1 card aspectwrapper-2by3 php">
       <div class="content">
         <div class="top z2 aspectwrapper-3by2">
-          <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
+          <div class="content image" style="background-image: url('http://i.imgur.com/M3TkdAU.jpg')"></div>
           <a href="#" class="float-button z2">>></a>
         </div>
         <div class="status column between">
           <div class="flex flex-xs-auto">
-            <div class="skill"><span>特技:</span> Web開発</div>
+            <div class="skill"><span>特技:</span> CMSツール運用</div>
           </div>
           <div class="row bottom">
             <div class="flex flex-xs-auto">
               <div class="bars-title">使用頻度:</div>
-              <div class="bar-name">Ruby</div>
+              <div class="bar-name">Wordpress</div>
               <div class="bar v100" data-value="100"></div>
               <div class="bar-name">Php</div>
-              <div class="bar v80" data-value="80"></div>
-              <div class="bar-name">C++</div>
-              <div class="bar v40" data-value="40"></div>
+              <div class="bar v60" data-value="60"></div>
+              <div class="bar-name">HTML</div>
+              <div class="bar v60" data-value="60"></div>
             </div>
             <div class="flex flex-xs-auto">
               <img src="./img/ruby.png" class="fav-logo">
@@ -83,25 +83,25 @@ valueに関してはこのようにして取得するイメージ。
     </div>
   </div>
   <div class="flex flex-lg-auto flex-fluid-sm-33">
-    <div class="frame z1 card aspectwrapper-2by3">
+    <div class="frame z1 card aspectwrapper-2by3 csharp">
       <div class="content">
         <div class="top z2 aspectwrapper-3by2">
-          <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
+          <div class="content image" style="background-image: url('http://livedoor.blogimg.jp/nizigami/imgs/5/8/58ad4183.jpg')"></div>
           <a href="#" class="float-button z2">>></a>
         </div>
         <div class="status column between">
           <div class="flex flex-xs-auto">
-            <div class="skill"><span>特技:</span> Web開発</div>
+            <div class="skill"><span>特技:</span> Androidアプリ</div>
           </div>
           <div class="row bottom">
             <div class="flex flex-xs-auto">
               <div class="bars-title">使用頻度:</div>
-              <div class="bar-name">Ruby</div>
+              <div class="bar-name">C#</div>
               <div class="bar v100" data-value="100"></div>
-              <div class="bar-name">Php</div>
+              <div class="bar-name">C</div>
               <div class="bar v80" data-value="80"></div>
               <div class="bar-name">C++</div>
-              <div class="bar v40" data-value="40"></div>
+              <div class="bar v50" data-value="50"></div>
             </div>
             <div class="flex flex-xs-auto">
               <img src="./img/ruby.png" class="fav-logo">
@@ -112,25 +112,25 @@ valueに関してはこのようにして取得するイメージ。
     </div>
   </div>
   <div class="flex flex-lg-auto flex-fluid-sm-33">
-    <div class="frame z1 card aspectwrapper-2by3">
+    <div class="frame z1 card aspectwrapper-2by3 javascript">
       <div class="content">
         <div class="top z2 aspectwrapper-3by2">
-          <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
+          <div class="content image" style="background-image: url('http://animewallpaperstock.com/wallpaper/03sa/steins-gate/steins-gate0118.jpg')"></div>
           <a href="#" class="float-button z2">>></a>
         </div>
         <div class="status column between">
           <div class="flex flex-xs-auto">
-            <div class="skill"><span>特技:</span> Web開発</div>
+            <div class="skill"><span>特技:</span>セッションハイジャック</div>
           </div>
           <div class="row bottom">
             <div class="flex flex-xs-auto">
               <div class="bars-title">使用頻度:</div>
-              <div class="bar-name">Ruby</div>
+              <div class="bar-name">Javascript</div>
               <div class="bar v100" data-value="100"></div>
-              <div class="bar-name">Php</div>
-              <div class="bar v80" data-value="80"></div>
-              <div class="bar-name">C++</div>
-              <div class="bar v40" data-value="40"></div>
+              <div class="bar-name">go</div>
+              <div class="bar v60" data-value="60"></div>
+              <div class="bar-name">F</div>
+              <div class="bar v20" data-value="20"></div>
             </div>
             <div class="flex flex-xs-auto">
               <img src="./img/ruby.png" class="fav-logo">
@@ -149,8 +149,20 @@ valueに関してはこのようにして取得するイメージ。
   min-height: 375px;
   width: 235px;
   max-width: 235px;
-  background-color: rgb(249, 37, 113);
 }
+.frame.card.ruby{
+  background-color: #E91E63;
+}
+.frame.card.php{
+  background-color: #3f51b5;
+}
+.frame.card.csharp{
+  background-color: #9c27b0;
+}
+.frame.card.javascript{
+  background-color: #ff9800;
+}
+
 .frame.card .top{
   position: relative;
 }
@@ -161,7 +173,6 @@ valueに関してはこのようにして取得するイメージ。
 }
 .frame.card .float-button {
   padding: 8px;
-  background-color: rgb(204,2,75);
   border-radius: 50px;
   text-decoration: none;
   color: white;
@@ -175,6 +186,18 @@ valueに関してはこのようにして取得するイメージ。
   text-indent: 8px;
   right: 24px;
   bottom: -36px;
+}
+.frame.card.ruby .float-button {
+  background-color: #C2185B;
+}
+.frame.card.php .float-button {
+  background-color: #303f9f;
+}
+.frame.card.csharp .float-button {
+  background-color: #7b1fa2;
+}
+.frame.card.javascript .float-button {
+  background-color: #f57c00;
 }
 .frame.card .status{
   padding: 16px;
@@ -198,18 +221,20 @@ valueに関してはこのようにして取得するイメージ。
 .frame.card .status .bar{
   margin: 4px 0px;
   height: 8px;
-  background-color: rgb(204, 2, 75);
+}
+.frame.card.ruby .status .bar{
+  background-color: #AD1457;
+}
+.frame.card.php .status .bar{
+  background-color: #283593;
+}
+.frame.card.csharp .status .bar{
+  background-color: #6a1b9a;
+}
+.frame.card.javascript .status .bar{
+  background-color: #ef6c00;
 }
 
-.frame.card .status .bar.v100{
-  width: 100%;
-}
-.frame.card .status .bar.v80{
-  width: 80%;
-}
-.frame.card .status .bar.v40{
-  width: 40%;
-}
 
 .frame.card .status .fav-logo{
   width: 90%;
