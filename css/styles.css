@@ -14,15 +14,14 @@ bootstrapのように利用して簡単にサイトを構築するためのチ�
 [Googleマテリアル・デザインから学ぶ４つの重要ポイント + 参考UIデザイン、無料素材まとめ](http://photoshopvip.net/archives/71776)
 */
 
-body{background-color: blue;}
 
 /* ### animation ### */
-@import url("http://orestrap.azurewebsites.net/css/animation.css");
+@import url("animation.css");
 
 /* ### Layout ### */
-@import url("http://orestrap.azurewebsites.net/css/layout.css");
-@import url("http://orestrap.azurewebsites.net/css/buttons.css");
-@import url("http://orestrap.azurewebsites.net/css/fixie-demo.css");
+@import url("layout.css");
+@import url("buttons.css");
+@import url("fixie-demo.css");
 
 /* ### Components ### */
-@import url("http://orestrap.azurewebsites.net/css/highlight/styles/googlecode.css");
+@import url("highlight/styles/googlecode.css");
