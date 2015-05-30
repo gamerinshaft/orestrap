@@ -585,8 +585,6 @@
 
   flex-wrap: wrap;
 
-  width: 100%;
-
   box-sizing: border-box;
 }
 
@@ -656,8 +654,6 @@
   -webkit-flex-direction: column;
 
   flex-wrap: wrap;
-
-  height: 100%;
 
   box-sizing: border-box;
 }
