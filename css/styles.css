@@ -18,10 +18,3 @@ bootstrapのように利用して簡単にサイトを構築するためのチ�
 /* ### animation ### */
 @import url("animation.css");
 
-/* ### Layout ### */
-@import url("layout.css");
-@import url("buttons.css");
-@import url("fixie-demo.css");
-
-/* ### Components ### */
-@import url("highlight/styles/googlecode.css");
