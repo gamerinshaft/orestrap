@@ -7,12 +7,15 @@ bootstrapのように利用して簡単にサイトを構築するためのチ�
 
 ## Getting started
 
-1. write the css Cord:  &nbsp;link rel="stylesheet" href="http://orestrap.azurewebsites.net/css/styles.css"> on your websites.
+1. write the css Cord: link rel="stylesheet" href="http://orestrap.azurewebsites.net/css/styles.css"> on your websites.
 2. finish!
 
 ## 参考サイト
 [Googleマテリアル・デザインから学ぶ４つの重要ポイント + 参考UIデザイン、無料素材まとめ](http://photoshopvip.net/archives/71776)
 */
+
+/* ### animation ### */
+@import url("animation.css");
 
 /* ### Layout ### */
 @import url("layout.css");
