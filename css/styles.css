@@ -1,0 +1,23 @@
+
+/*
+# 俺strap
+
+## Design Oneハッカソン大会のためのスタイルテーマ
+bootstrapのように利用して簡単にサイトを構築するためのチートシート兼CSSライブラリ
+
+## Getting started
+
+1. write the css Cord:  &nbsp;link rel="stylesheet" href="http://orestrap.azurewebsites.net/css/styles.css"> on your websites.
+2. finish!
+
+## 参考サイト
+[Googleマテリアル・デザインから学ぶ４つの重要ポイント + 参考UIデザイン、無料素材まとめ](http://photoshopvip.net/archives/71776)
+*/
+
+/* ### Layout ### */
+@import url("layout.css");
+@import url("buttons.css");
+@import url("fixie-demo.css");
+
+/* ### Components ### */
+@import url("highlight/styles/googlecode.css");

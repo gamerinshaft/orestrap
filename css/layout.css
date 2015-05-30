@@ -1,0 +1,104 @@
+/*
+  # Material デザインに関する基本原則
+
+  - 空間を持ち、素材を活かす
+  - 影を使って質感を表現する
+  - マテリアルは様々な面や、高さがあるが、あくまで薄く
+  - 影は高さによって違和感のない自然なぼやけかた、濃さに調整する
+  - マテリアルに表示される要素は、あくまでマテリアルに映写されていると考える。厚みを持ってはいけない
+  - 要素はマテリアル内を自由に動くことができるが、それをはみ出してはいけない
+  - イベントが発火するのはあくまで前面にあるマテリアルのみとする
+  - 同じ高さのマテリアルが重なり合ってはいけない
+  - マテリアルの深度が変わる時、他の要素をつっきってはいけない
+  - 二つのペーパーが横並びないし縦並びの時は、互いの高さを変えることによって独立させわかりやすくす
+  - マテリアルは形状を変化することができる
+  - マテリアルは同じ次元のもと形を変化せさることができる
+  - マテリアルが折りたたまれたり、めくれたりしてはならない
+  - マテリアルは合わさりひとつの要素になることができる
+  - マテリアルはひとつのシートから複数のシートに分離したとしてももとに戻ることができる
+  - マテリアルは環境に応じて自発的に作成、削除される。
+  - マテリアルは三次元平面において自由に移動することができる。
+  - 基本的にマテリアルに対してのユーザーアクションによって高さ(z)方向へのモーションは発生する
+  - マテリアルの深度は親要素、子要素の深度に影響される
+  - マテリアルには適切な深度がある。ツールバーなら4dp、フローティングボタンは6dp、カードは2dp
+  - カードの上にフローティングボタンが載っている場合、差し引きで深度は2となりフローティングボタンの射影が明瞭になる
+  - また、ボタンが押されると6dp分深度があさくなり射影が不明瞭になる
+  - 見ている環境に合わせて深度も変える
+  - クリックされた時など、マテリアルは、6dpi深度をあげる
+  - ボタンの影に注意はみ出している場合は一番下の要素の影に合わせる
+  - 子要素はひとつの親要素をもち、相対的に変化する
+  - 子要素と親要素は必要最低限の深度で分離されており、その間に他の要素を入れることはできない
+  - アニメーションは自然加速し、自然原則するよう調整する
+  - 要素の消滅時に不自然に注目を集めてはならない、あくまで気付かないほど自然に消失させる
+  - 小さく軽いマテリアルは早く移動、重く大きいマテリアルはゆっくりと移動する
+  - タッチイベントなどはクリックされた位置から波紋が広がるようなアニメーションにする
+  - リスト要素の場合は波紋
+  - ボタンならば浮かび上がりと波紋
+  - マテリアルつらなりならばひとつずつ滑らかに読み込まれる
+  - これらはpolymerを利用して実装する
+  - 画像ホバーなどもあくまで波紋状に[実装](http://www.google.com/design/spec/animation/responsive-interaction.html#responsive-interaction-surface-reaction)
+  - マテリアルはクリックされたポジションから作成されるようにする
+  - 同じ深度のマテリアルが連なっているとき、タッチされたらその要素を浮き上がらせる
+  - 画面の繊維はあくまで滑らかに自然に、消失出現ではない[例](http://www.google.com/design/spec/animation/meaningful-transitions.html#meaningful-transitions-visual-continuity)
+  - アニメーションには一貫性を持たせる
+  - シームレスに画像、アイコンをいれかえる
+  - 色は大胆にわかりやすく
+  - [色見本](http://www.google.com/design/spec/style/color.html#color-color-palette)
+  - パレットから三色彩度を選び統一する[例](http://www.google.com/design/spec/style/color.html#color-ui-color-application)
+  - テキストの濃さは背景色によって[決まる](http://www.google.com/design/spec/style/color.html#color-ui-color-application)
+  - アクセントカラーはここぞのときに決める
+  - [カラーテーマ2](http://www.google.com/design/spec/style/color.html#color-themes)
+  - 画像は飾りではない。オーバーレイなどで強調
+  - 画像にはストーリー性をもたせる、日常的なもの、親身になれる表現をする
+  - 画像内にもアクセントをつけて、何に注目すればいいのかを瞬時に理解させる
+  - 何に焦点させるかを間違えてはいけない
+  - 適切な画像を使用する。おすすめ変換サイト[waifu2x](http://waifu2x.udp.jp/)
+  - 画像を並べるとき、様々なサイズのものをならべる、小さくしたときは均一サイズ
+  - ダークスクリムは、理想的には内容に応じて、20％-40％の不透明度の間であるべき、光スクリムは、理想的には内容に応じて、40％-60％の不透明度の範囲であるべきである
+  - 拡大イメージは暗くしない
+  - Both Roboto and Noto have hinted and unhinted versions. Google recommends:
+    * Use the unhinted versions on Android and on Mac OS X, which doesn’t implement hints.
+    * Use hinted fonts on Chrome OS, Windows, and Linux.
+  - font-sizeは12,14,16,20,34,45,56,112を[もちいる](http://www.google.com/design/spec/style/typography.html#typography-typeface)
+  - 画像サイズなどに関しては[これ](http://www.google.com/design/spec/layout/units-measurements.html#)
+  - スペース 8px
+  - ツールバー 64px
+  - 空白8px
+  - サブタイトルリストアイテム、スライダー48px
+  - タイトル80px
+  - 高さと横幅のaspect比 16:9　3:2　4:3　1:1　3:4　2:3
+  - アイコン 48px 空白 24px アバターは40px
+  - above The element is 48dp wide and the avatar is 40dp wide.
+  - Below: The element is 48dp wide and the icon is 24dp wide.
+  - [ヘッダー参考](http://www.google.com/design/spec/layout/structure.html#structure-app-bar)
+
+  ボタン
+  高さ：36dp
+  最小幅：64dp
+  タフターゲット高：48dp
+  水平マージン：4DP
+  水平パディング：8DP
+  ボタン高さ36px
+
+  - 龍騎したボタンは汎用的なものには使わない
+
+  フラットライト/ライト​​のテーマ
+  最小幅：88dp
+  身長：36dp
+  ホバー：20％＃999999
+  プレス：40％の＃999999
+  disableテキスト：26％の＃000000
+
+  フラットダーク/ダークテーマ
+  最小幅：88dp
+  身長：36dp
+  ホバー：15％#CCCCCC
+  プレス：25％#CCCCCC
+  disableテキスト：30％#FFFFFF
+
+  - [ボタンデザイン](http://www.google.com/design/spec/components/buttons.html#buttons-flat-raised-buttons)
+  - カードは2PX丸みをもっている
+  - カードは均一な要素に対しは不要
+  - 画像を表示するギャラリーはあくまで軽く
+
+*/
