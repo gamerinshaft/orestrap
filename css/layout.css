@@ -411,6 +411,143 @@
   <div class="testbox3">6</div>
 </div>
 ```
+
+
+##  縦方向高さ合わせ
+
+子要素に高さが指定されてない(paddingなどだけの指定された)場合、
+自動的にすべての高さを合わせる
+
+```
+<div class="row stretch">
+  <div class="testbox4">1</div>
+  <div class="testbox4">2</div>
+  <div class="testbox4">3</div>
+  <div class="testbox4">4</div>
+  <div class="testbox4">5</div>
+  <div class="testbox4">6</div>
+</div
+```
+
+# content
+
+要素が折り返された時に、どのように表示するのかを決める
+
+## 上部揃え
+
+```
+<div class="row content-top testbox5">
+  <div class="flex flex-xs-20">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-20
+    </div>
+  </div>
+  <div class="flex flex-lg-18">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-18
+    </div>
+  </div>
+  <div class="flex flex-lg-2">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-2
+    </div>
+  </div>
+</div>
+
+```
+
+## 下部揃え
+
+```
+<div class="row content-bottom testbox5">
+  <div class="flex flex-xs-20">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-20
+    </div>
+  </div>
+  <div class="flex flex-lg-18">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-18
+    </div>
+  </div>
+  <div class="flex flex-lg-2">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-2
+    </div>
+  </div>
+</div>
+
+```
+
+## 中央揃え
+
+```
+<div class="row content-center testbox5">
+  <div class="flex flex-xs-20">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-20
+    </div>
+  </div>
+  <div class="flex flex-lg-18">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-18
+    </div>
+  </div>
+  <div class="flex flex-lg-2">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-2
+    </div>
+  </div>
+</div>
+
+```
+
+## 全均等配置
+
+```
+<div class="row content-around testbox5">
+  <div class="flex flex-xs-20">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-20
+    </div>
+  </div>
+  <div class="flex flex-lg-18">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-18
+    </div>
+  </div>
+  <div class="flex flex-lg-2">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-2
+    </div>
+  </div>
+</div>
+
+```
+
+
+## 中央均等配置
+
+```
+<div class="row content-between testbox5">
+  <div class="flex flex-xs-20">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-20
+    </div>
+  </div>
+  <div class="flex flex-lg-18">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-18
+    </div>
+  </div>
+  <div class="flex flex-lg-2">
+    <div class="frame z1 padding-8 testbox1">
+      flex-lg-2
+    </div>
+  </div>
+</div>
+
+```
 */
 
 .row{
@@ -445,6 +582,21 @@
 .row.top{
   align-items: flex-start;
 }
+.row.content-top{
+  align-content: flex-start;
+}
+.row.content-bottom{
+  align-content: flex-end;
+}
+.row.content-center{
+  align-content: center;
+}
+.row.content-between{
+  align-content: between;
+}
+.row.content-around{
+  align-content: around;
+}
 .row.bottom{
   align-items: flex-end;
 }
@@ -453,6 +605,9 @@
 }
 .row.baseline{
   align-items: baseline;
+}
+.row.stretch{
+  align-items: stretch;
 }
 .row.reverse{
   flex-direction: row-reverse;

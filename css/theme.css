@@ -10,16 +10,23 @@
   background-color: #c51162;
 }
 
-.testbox2, .testbox3{
+.column .testbox1{
+  background-color: #c51162;
+}
+
+.testbox2, .testbox3, .testbox4{
   padding: 32px;
   color: white;
   text-align: center;
   font-size: 32px;
 }
-.testbox2:nth-child(2n), .testbox3:nth-child(2n){
+.column .testbox3{
+  padding: 0px;
+}
+.testbox2:nth-child(2n), .testbox3:nth-child(2n), .testbox4:nth-child(2n){
   background-color: #f50057;
 }
-.testbox2:nth-child(2n+1), .testbox3:nth-child(2n+1){
+.testbox2:nth-child(2n+1), .testbox3:nth-child(2n+1), .testbox4:nth-child(2n+1){
   background-color: #2979ff;
 }
 
@@ -55,9 +62,29 @@
   font-size: 34px;
 }
 
-.column .testbox1{
-  background-color: #c51162;
+.row .testbox4:nth-child(1){
+  padding: 24px;
 }
+.row .testbox4:nth-child(2){
+  padding: 32px;
+}
+.row .testbox4:nth-child(3){
+  padding: 42px;
+}
+.row .testbox4:nth-child(4){
+  padding: 12px;
+}
+.row .testbox4:nth-child(5){
+  padding: 10px;
+}
+.row .testbox4:nth-child(6){
+  padding: 16px;
+}
+
+.row.testbox5{
+  height: 300px;
+}
+
 /*====================*/
 
 html, body, .kalei {
