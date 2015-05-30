@@ -242,8 +242,124 @@
 </div>
 ```
 
-*/
+## 折り返さないフレキシブル
 
+```
+<div class="row nowrap">
+  <div class="flex flex-xs-12">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-12
+    </div>
+  </div>
+  <div class="flex flex-xs-8">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-8
+    </div>
+  </div>
+  <div class="flex flex-md-5">
+    <div class="frame z1 padding-8 testbox1">
+      flex-md-5
+    </div>
+  </div>
+  <div class="flex flex-md-15">
+    <div class="frame z1 padding-8 testbox1">
+      flex-md-15
+    </div>
+  </div>
+</div>
+
+```
+
+## 折り返す向きが逆なフレキシブル
+
+```
+<div class="row wrap-reverse">
+  <div class="flex flex-xs-12">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-12
+    </div>
+  </div>
+  <div class="flex flex-xs-8">
+    <div class="frame z1 padding-8 testbox1">
+      flex-xs-8
+    </div>
+  </div>
+  <div class="flex flex-md-5">
+    <div class="frame z1 padding-8 testbox1">
+      flex-md-5
+    </div>
+  </div>
+</div>
+
+```
+
+# グリッドデザイン
+
+## 中央寄せ
+
+```
+<div class="row center">
+  <div class="testbox2">1</div>
+  <div class="testbox2">2</div>
+  <div class="testbox2">3</div>
+  <div class="testbox2">4</div>
+  <div class="testbox2">5</div>
+  <div class="testbox2">6</div>
+</div>
+```
+
+## 左寄せ
+
+```
+<div class="row left">
+  <div class="testbox2">1</div>
+  <div class="testbox2">2</div>
+  <div class="testbox2">3</div>
+  <div class="testbox2">4</div>
+  <div class="testbox2">5</div>
+  <div class="testbox2">6</div>
+</div>
+```
+
+## 右寄せ
+
+```
+<div class="row right">
+  <div class="testbox2">1</div>
+  <div class="testbox2">2</div>
+  <div class="testbox2">3</div>
+  <div class="testbox2">4</div>
+  <div class="testbox2">5</div>
+  <div class="testbox2">6</div>
+</div>
+```
+
+## 全均一配置
+
+```
+<div class="row around">
+  <div class="testbox2">1</div>
+  <div class="testbox2">2</div>
+  <div class="testbox2">3</div>
+  <div class="testbox2">4</div>
+  <div class="testbox2">5</div>
+  <div class="testbox2">6</div>
+</div>
+```
+
+## 中央均一配置
+
+```
+<div class="row between">
+  <div class="testbox2">1</div>
+  <div class="testbox2">2</div>
+  <div class="testbox2">3</div>
+  <div class="testbox2">4</div>
+  <div class="testbox2">5</div>
+  <div class="testbox2">6</div>
+</div>
+```
+*/
 
 .row{
 
@@ -259,10 +375,32 @@
   box-sizing: border-box;
 }
 
-
+.row.left{
+  justify-content: flex-start;
+}
+.row.right{
+  justify-content: flex-end;
+}
+.row.center{
+  justify-content: center;
+}
+.row.around{
+  justify-content: space-around;
+}
+.row.between{
+  justify-content: space-between;
+}
 .row.reverse{
   flex-direction: row-reverse;
   -webkit-flex-direction: row-reverse;
+}
+
+.row.nowrap, .column.nowrap{
+  flex-wrap: nowrap;
+}
+
+.row.wrap-reverse, .column.wrap-reverse{
+  flex-wrap: wrap-reverse;
 }
 
 .column{

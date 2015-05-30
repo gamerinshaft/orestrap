@@ -1,9 +1,28 @@
+.testbox{
+  position: relative;
+  width:  320px;
+  height: 180px;
+}
 
 .testbox1{
   display: block;
   color: white;
   background-color: #c51162;
 }
+
+.testbox2{
+  padding: 32px;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+.testbox2:nth-child(2n){
+  background-color: #f50057;
+}
+.testbox2:nth-child(2n+1){
+  background-color: #2979ff;
+}
+
 .container .testbox1{
   background-color: #c51162;
 }

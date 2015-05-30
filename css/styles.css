@@ -33,18 +33,3 @@ bootstrapのように利用して簡単にサイトを構築するためのチ�
 /* ### another ### */
 @import url("another.css");
 
-.testbox{
-  position: relative;
-  width:  320px;
-  height: 180px;
-}
-
-.row .frame{
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.column .frame{
-  height: 100%;
-  box-sizing: border-box;
-}
