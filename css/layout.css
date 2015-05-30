@@ -1,10 +1,10 @@
 /*
-# BaseLayout
+# Layout
 
 ## 縦横中央に要素を配置する
 
 ```
-<div class="testbox4">
+<div class="testbox7">
   <div class="row" style="height: 100%;">
     <div class="flex flex-xs-auto"></div>
     <div class="column">
@@ -16,4 +16,206 @@
   </div>
 </div>
 ```
+
+## Card
+
+valueに関してはこのようにして取得するイメージ。
+動的化はジェネレータの都合上割愛。
+
+```
+<div class="row">
+  <div class="flex flex-lg-5">
+    <div class="frame z1 card aspectwrapper-2by3">
+      <div class="content">
+        <div class="top z2 aspectwrapper-3by2">
+          <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
+          <a href="#" class="float-button z2">>></a>
+        </div>
+        <div class="status column between">
+          <div class="flex flex-xs-auto">
+            <div class="skill"><span>特技:</span> Web開発</div>
+          </div>
+          <div class="row bottom">
+            <div class="flex flex-xs-auto">
+              <div class="bars-title">使用頻度:</div>
+              <div class="bar-name">Ruby</div>
+              <div class="bar v100" data-value="100"></div>
+              <div class="bar-name">Php</div>
+              <div class="bar v80" data-value="80"></div>
+              <div class="bar-name">C++</div>
+              <div class="bar v40" data-value="40"></div>
+            </div>
+            <div class="flex flex-xs-auto">
+              <img src="./img/ruby.png" class="fav-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-lg-5">
+    <div class="frame z1 card aspectwrapper-2by3">
+      <div class="content">
+        <div class="top z2 aspectwrapper-3by2">
+          <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
+          <a href="#" class="float-button z2">>></a>
+        </div>
+        <div class="status column between">
+          <div class="flex flex-xs-auto">
+            <div class="skill"><span>特技:</span> Web開発</div>
+          </div>
+          <div class="row bottom">
+            <div class="flex flex-xs-auto">
+              <div class="bars-title">使用頻度:</div>
+              <div class="bar-name">Ruby</div>
+              <div class="bar v100" data-value="100"></div>
+              <div class="bar-name">Php</div>
+              <div class="bar v80" data-value="80"></div>
+              <div class="bar-name">C++</div>
+              <div class="bar v40" data-value="40"></div>
+            </div>
+            <div class="flex flex-xs-auto">
+              <img src="./img/ruby.png" class="fav-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-lg-5">
+    <div class="frame z1 card aspectwrapper-2by3">
+      <div class="content">
+        <div class="top z2 aspectwrapper-3by2">
+          <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
+          <a href="#" class="float-button z2">>></a>
+        </div>
+        <div class="status column between">
+          <div class="flex flex-xs-auto">
+            <div class="skill"><span>特技:</span> Web開発</div>
+          </div>
+          <div class="row bottom">
+            <div class="flex flex-xs-auto">
+              <div class="bars-title">使用頻度:</div>
+              <div class="bar-name">Ruby</div>
+              <div class="bar v100" data-value="100"></div>
+              <div class="bar-name">Php</div>
+              <div class="bar v80" data-value="80"></div>
+              <div class="bar-name">C++</div>
+              <div class="bar v40" data-value="40"></div>
+            </div>
+            <div class="flex flex-xs-auto">
+              <img src="./img/ruby.png" class="fav-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-lg-5">
+    <div class="frame z1 card aspectwrapper-2by3">
+      <div class="content">
+        <div class="top z2 aspectwrapper-3by2">
+          <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
+          <a href="#" class="float-button z2">>></a>
+        </div>
+        <div class="status column between">
+          <div class="flex flex-xs-auto">
+            <div class="skill"><span>特技:</span> Web開発</div>
+          </div>
+          <div class="row bottom">
+            <div class="flex flex-xs-auto">
+              <div class="bars-title">使用頻度:</div>
+              <div class="bar-name">Ruby</div>
+              <div class="bar v100" data-value="100"></div>
+              <div class="bar-name">Php</div>
+              <div class="bar v80" data-value="80"></div>
+              <div class="bar-name">C++</div>
+              <div class="bar v40" data-value="40"></div>
+            </div>
+            <div class="flex flex-xs-auto">
+              <img src="./img/ruby.png" class="fav-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
 */
+.frame.card{
+  margin: 0 auto;
+  height: 375px;
+  min-height: 375px;
+  max-height: 375px;
+  width: 235px;
+  min-width: 235px;
+  max-width: 235px;
+  background-color: rgb(249, 37, 113);
+}
+.frame.card .top{
+  position: relative;
+}
+
+.frame.card .top .image{
+  background-size: cover;
+  background-position: center;
+}
+.frame.card .float-button {
+  padding: 8px;
+  background-color: rgb(204,2,75);
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 6px;
+  text-indent: 8px;
+  right: 24px;
+  bottom: -36px;
+}
+.frame.card .status{
+  padding: 16px;
+  font-size: 12px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+.frame.card .status .skill{
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.frame.card .status .skill span{
+  font-size: 12px;
+  font-weight: normal;
+  display: block;
+}
+.frame.card .status .bar-name{
+  font-weight: bold;
+}
+.frame.card .status .bar{
+  margin: 4px 0px;
+  height: 8px;
+  background-color: rgb(204, 2, 75);
+}
+
+.frame.card .status .bar.v100{
+  width: 100%;
+}
+.frame.card .status .bar.v80{
+  width: 80%;
+}
+.frame.card .status .bar.v40{
+  width: 40%;
+}
+
+.frame.card .status .fav-logo{
+  width: 90%;
+  margin-right: 0;
+  margin-left: auto;
+  display: block;
+}

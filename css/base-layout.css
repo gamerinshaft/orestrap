@@ -1,6 +1,6 @@
 
 /*
-# Layout
+# BaseLayout
 
 
 ## Container
@@ -459,7 +459,7 @@
 
 要素が折り返された時に、どのように表示するのかを決める
 
-## 上部揃え
+## コンテンツ上部揃え
 
 ```
 <div class="row content-top testbox5">
@@ -482,7 +482,7 @@
 
 ```
 
-## 下部揃え
+## コンテンツ下部揃え
 
 ```
 <div class="row content-bottom testbox5">
@@ -505,7 +505,7 @@
 
 ```
 
-## 中央揃え
+## コンテンツ中央揃え
 
 ```
 <div class="row content-center testbox5">
@@ -528,7 +528,7 @@
 
 ```
 
-## 全均等配置
+## コンテンツ全均等配置
 
 ```
 <div class="row content-around testbox5">
@@ -552,7 +552,7 @@
 ```
 
 
-## 中央均等配置
+## コンテンツ中央均等配置
 
 ```
 <div class="row content-between testbox5">
