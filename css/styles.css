@@ -14,7 +14,7 @@ bootstrapのように利用して簡単にサイトを構築するためのチ�
 [Googleマテリアル・デザインから学ぶ４つの重要ポイント + 参考UIデザイン、無料素材まとめ](http://photoshopvip.net/archives/71776)
 */
 
-body{background-color: red;}
+body{background-color: blue;}
 
 /* ### animation ### */
 @import url("http://orestrap.azurewebsites.net/css/animation.css");
