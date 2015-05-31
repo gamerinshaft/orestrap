@@ -27,6 +27,7 @@
 .frame.frame--login{
   -webkit-font-smoothing: antialiased;
   height: 100%;
+  background-color: #FF4081;
 }
 .frame.frame--login > .header{
   background-color: #c51162;
@@ -38,7 +39,6 @@
 }
 
 .frame.frame--login > .content{
-  background-color: #AD1457;
   color: white;
   padding: 8px;
 }
