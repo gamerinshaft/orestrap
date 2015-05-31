@@ -119,6 +119,11 @@ login-wrapと、中身の大きさは合わせること。
   width: 56px;
   margin: 6px 8px;
 }
+.login-button > ng-md-icon{
+  position: absolute;
+  left: 16px;
+  top: 14px;
+}
 .login-wrap.animate .login-button{
   animation-name: moveLoginButton;
   -webkit-animation-name: moveLoginButton;
