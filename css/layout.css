@@ -428,11 +428,8 @@ ruby,php,c#,javascript ロゴあり
 .frame.card.html .top .image{
   background-color: #C62828;
 }
-.frame.card.html .top .image{
-  background-color: #558B2F;
-}
 .frame.card.swift .top .image{
-  background-color: #FF8FF0;
+  background-color: #FF8F00;
 }
 .frame.card .float-button {
   padding: 8px;
