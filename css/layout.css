@@ -201,7 +201,21 @@ ruby,php,c#,javascript ロゴあり
 .frame.card .top .image{
   background-size: cover;
   background-position: center;
-  background-color: white;
+}
+.frame.card.ruby .top .image{
+  background-color: #AD1457;
+}
+.frame.card.php .top .image{
+  background-color: #283593;
+}
+.frame.card.csharp .top .image{
+  background-color: #6a1b9a;
+}
+.frame.card.javascript .top .image{
+  background-color: #ef6c00;
+}
+.frame.card.html .top .image{
+  background-color: #C62828;
 }
 .frame.card .float-button {
   padding: 8px;
