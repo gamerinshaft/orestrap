@@ -104,6 +104,7 @@ login-wrapと、中身の大きさは合わせること。
   overflow: hidden;
 }
 .login-button{
+  cursor: pointer;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   width: 40px;
