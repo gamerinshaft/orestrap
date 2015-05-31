@@ -34,6 +34,7 @@ login-wrapと、中身の大きさは合わせること。
 
 }
 .login-wrap #login-close {
+  cursor: pointer;
   position: absolute;
   right: 12px;
   top: 8px;
