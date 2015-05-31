@@ -33,7 +33,12 @@ login-wrapと、中身の大きさは合わせること。
 .login-wrap.animate{
 
 }
-
+.login-wrap #login-close {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  font-size: 18px;
+}
 .login-wrap.animate .visibleContent{
 
   animation-name: visibleContent;
@@ -91,8 +96,8 @@ login-wrapと、中身の大きさは合わせること。
   animation-iteration-count: 1;
   -webkit-animation-iteration-count: 1;
 
-  animation-direction:alternate;
-  -webkit−animation-direction:alternate;
+  animation-direction: alternate;
+  -webkit−animation-direction: alternate;
 
   animation-fill-mode: both;
   -webkit-animation-fill-mode: both;
