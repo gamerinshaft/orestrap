@@ -36,11 +36,13 @@ z*クラスとともに用いることで、影をつけることができます
 .row .frame{
   width: 100%;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .column .frame{
   height: 100%;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .z1{

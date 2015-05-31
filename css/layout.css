@@ -22,6 +22,8 @@
 valueに関してはこのようにして取得するイメージ。
 動的化はジェネレータの都合上割愛。
 back 500 float 700 bar 800
+ruby,php,c#,javascript ロゴあり
+
 ```
 <div class="row">
   <div class="flex flex-lg-auto flex-fluid-sm-33">
@@ -46,7 +48,7 @@ back 500 float 700 bar 800
               <div class="bar v40" data-value="40"></div>
             </div>
             <div class="flex flex-xs-auto">
-              <img src="./img/ruby.png" class="fav-logo">
+              <img src="./img/lang_icon/html5_icon_white.png" class="fav-logo">
             </div>
           </div>
         </div>
@@ -75,7 +77,7 @@ back 500 float 700 bar 800
               <div class="bar v60" data-value="60"></div>
             </div>
             <div class="flex flex-xs-auto">
-              <img src="./img/ruby.png" class="fav-logo">
+              <img src="./img/lang_icon/html5_icon_white.png" class="fav-logo">
             </div>
           </div>
         </div>
@@ -104,7 +106,7 @@ back 500 float 700 bar 800
               <div class="bar v50" data-value="50"></div>
             </div>
             <div class="flex flex-xs-auto">
-              <img src="./img/ruby.png" class="fav-logo">
+              <img src="./img/lang_icon/html5_icon_white.png" class="fav-logo">
             </div>
           </div>
         </div>
@@ -133,7 +135,36 @@ back 500 float 700 bar 800
               <div class="bar v20" data-value="20"></div>
             </div>
             <div class="flex flex-xs-auto">
-              <img src="./img/ruby.png" class="fav-logo">
+              <img src="./img/lang_icon/html5_icon_white.png" class="fav-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-lg-auto flex-fluid-sm-33">
+    <div class="frame z1 card aspectwrapper-2by3 html">
+      <div class="content">
+        <div class="top z2 aspectwrapper-3by2">
+          <div class="content image" style="background-image: url('http://livedoor.blogimg.jp/nizigami/imgs/5/8/58ad4183.jpg')"></div>
+          <a href="#" class="float-button z2">>></a>
+        </div>
+        <div class="status column between">
+          <div class="flex flex-xs-auto">
+            <div class="skill"><span>特技:</span> Androidアプリ</div>
+          </div>
+          <div class="row bottom">
+            <div class="flex flex-xs-auto">
+              <div class="bars-title">使用頻度:</div>
+              <div class="bar-name">C#</div>
+              <div class="bar v100" data-value="100"></div>
+              <div class="bar-name">C</div>
+              <div class="bar v80" data-value="80"></div>
+              <div class="bar-name">C++</div>
+              <div class="bar v50" data-value="50"></div>
+            </div>
+            <div class="flex flex-xs-auto">
+              <img src="./img/lang_icon/html5_icon_white.png" class="fav-logo">
             </div>
           </div>
         </div>
@@ -162,6 +193,10 @@ back 500 float 700 bar 800
 .frame.card.javascript{
   background-color: #ff9800;
 }
+.frame.card.html{
+  background-color: #F44336;
+}
+
 
 .frame.card .top{
   position: relative;
@@ -199,6 +234,10 @@ back 500 float 700 bar 800
 .frame.card.javascript .float-button {
   background-color: #f57c00;
 }
+.frame.card.html .float-button {
+  background-color: #D32F2F;
+}
+
 .frame.card .status{
   padding: 16px;
   font-size: 12px;
@@ -234,6 +273,9 @@ back 500 float 700 bar 800
 .frame.card.javascript .status .bar{
   background-color: #ef6c00;
 }
+.frame.card.html .status .bar{
+  background-color: #C62828;
+}
 
 
 .frame.card .status .fav-logo{
@@ -241,4 +283,173 @@ back 500 float 700 bar 800
   margin-right: 0;
   margin-left: auto;
   display: block;
+}
+
+/*
+
+## User/profile
+
+cardの影がz1からz3に変わっていることに注意。ボタンは無くなっている
+```
+<div class="test aspectwrapper-16by9">
+  <div class="content">
+    <div class="frame z1">
+      <div class="flex frame z1 frame-top">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="flex flex-xs-auto simple-profile">
+            <div class="frame z3 card aspectwrapper-2by3 ruby">
+              <div class="content">
+                <div class="top z2 aspectwrapper-3by2">
+                  <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
+                </div>
+                <div class="status column between">
+                  <div class="flex flex-xs-auto">
+                    <div class="skill"><span>特技:</span> Web開発</div>
+                  </div>
+                  <div class="row bottom">
+                    <div class="flex flex-xs-auto">
+                      <div class="bars-title">使用頻度:</div>
+                      <div class="bar-name">Ruby</div>
+                      <div class="bar v100" data-value="100"></div>
+                      <div class="bar-name">Php</div>
+                      <div class="bar v80" data-value="80"></div>
+                      <div class="bar-name">C++</div>
+                      <div class="bar v40" data-value="40"></div>
+                    </div>
+                    <div class="flex flex-xs-auto">
+                      <img src="./img/lang_icon/html5_icon_white.png" class="fav-logo">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-xs-16">
+            <div class="row">
+              <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-twitter"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-github-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-facebook"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-pinterest-p"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-dribbble"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-bitbucket"></i>
+                  </div>
+                </div>
+              </div>
+             <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-google"></i>
+                  </div>
+                </div>
+              </div>
+             <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-instagram"></i>
+                  </div>
+                </div>
+              </div>
+             <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-slideshare"></i>
+                  </div>
+                </div>
+              </div>
+             <div class="flex flex-xs-2">
+                <div class="aspectwrapper-1by1">
+                  <div class="frame z1 sns content">
+                    <i class="fa fa-vimeo-square"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-xs-12">
+                <div class="frame z1 description padding-16">
+                  こんにちは。たにしです。
+                  得意言語はRubyで、主にフロントエンド開発を中心に活動しています。
+                  面白い方とチームを是非組めたらと思っています。<br>
+                  年上のお姉さんが好きで、世界のいたるところにいるお姉さんを求めて僕は今日も旅に出ます。
+                </div>
+              </div>
+              <div class="flex flex-xs-8">
+                <div class="frame z1 matrixgraph padding-16">
+                  <div class="graph">
+                    graphが表示される
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+*/
+
+.test .content > .frame{
+  height: 100%;
+  background-color: #eee;
+}
+.test .content > .frame .frame-top{
+  height: 30%;
+  background-color: #C2185B;
+}
+.test .content > .frame .simple-profile{
+  margin-top: -5%;
+}
+
+.frame.sns{
+  margin: 0 auto;
+  font-size: 60px;
+  color: #555;
+}
+.frame.sns i.fa{
+  width: 100%;
+  text-align: center;
+}
+.frame.description {
+  font-size: 12px;
+  color: #555;
+}
+
+.frame.matrixgraph .graph{
+  width: 100%;
+  border: solid 1px #555;
 }

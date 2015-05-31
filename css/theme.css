@@ -49,16 +49,16 @@
 .testbox7{
   width: 400px;
   height: 400px;
-  background-color: #c51162;
+  background-color: #c51162 !important;
 }
 .testbox1{
   display: block;
   color: white;
-  background-color: #c51162;
+  background-color: #c51162 !important;
 }
 
 .column .testbox1{
-  background-color: #c51162;
+  background-color: #c51162 !important;
 }
 
 .testbox2, .testbox3, .testbox4{
@@ -71,17 +71,17 @@
   padding: 0px;
 }
 .testbox2:nth-child(2n), .testbox3:nth-child(2n), .testbox4:nth-child(2n){
-  background-color: #f50057;
+  background-color: #f50057 !important;
 }
 .testbox2:nth-child(2n+1), .testbox3:nth-child(2n+1), .testbox4:nth-child(2n+1){
-  background-color: #2979ff;
+  background-color: #2979ff !important;
 }
 
 .container .testbox1{
-  background-color: #c51162;
+  background-color: #c51162 !important;
 }
 .row .testbox1{
-  background-color: #2979ff;
+  background-color: #2979ff !important;
 }
 
 .row .testbox3:nth-child(1){
