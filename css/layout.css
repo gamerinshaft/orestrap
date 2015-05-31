@@ -195,7 +195,7 @@ ruby,php,c#,javascript ロゴあり
     <div class="frame z1 card aspectwrapper-2by3 html">
       <div class="content">
         <div class="top z2 aspectwrapper-3by2">
-          <div class="content image" style="background-image: url('http://livedoor.blogimg.jp/nizigami/imgs/5/8/58ad4183.jpg')"></div>
+          <div class="content image" style="background-image: url('http://blogs.c.yimg.jp/res/blog-f7-4a/sa_tocchi/folder/1216720/55/37230855/img_6?1353240158')"></div>
           <a href="#" class="float-button z2">>></a>
         </div>
         <div class="status column between">
@@ -221,6 +221,126 @@ ruby,php,c#,javascript ロゴあり
     </div>
   </div>
 </div>
+<div class="row">
+  <div class="flex flex-lg-auto flex-fluid-sm-33">
+    <div class="frame z1 card aspectwrapper-2by3 css">
+      <div class="content">
+        <div class="top z2 aspectwrapper-3by2">
+          <div class="content image" style="background-image: url('http://pic.prepics-cdn.com/0257f6e8ae96d/27590357.jpeg')"></div>
+          <a href="#" class="float-button z2">>></a>
+        </div>
+        <div class="status column between">
+          <div class="flex flex-xs-auto">
+            <div class="skill"><span>特技:</span> CSSアニメーション</div>
+          </div>
+          <div class="row bottom">
+            <div class="flex flex-xs-auto">
+              <div class="bars-title">使用言語</div>
+              <div class="bar-name">CSS</div>
+              <div class="bar v100" data-value="100"></div>
+              <div class="bar-name">C</div>
+              <div class="bar v80" data-value="80"></div>
+              <div class="bar-name">C++</div>
+              <div class="bar v50" data-value="50"></div>
+            </div>
+            <div class="flex flex-xs-auto">
+              <img src="./img/lang_icon/css.png" class="fav-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-lg-auto flex-fluid-sm-33">
+    <div class="frame z1 card aspectwrapper-2by3 photoshop">
+      <div class="content">
+        <div class="top z2 aspectwrapper-3by2">
+          <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/t/kotorinooyatsu/wonder05.jpg')"></div>
+          <a href="#" class="float-button z2">>></a>
+        </div>
+        <div class="status column between">
+          <div class="flex flex-xs-auto">
+            <div class="skill"><span>特技:</span> photoshop</div>
+          </div>
+          <div class="row bottom">
+            <div class="flex flex-xs-auto">
+              <div class="bars-title">使用言語</div>
+              <div class="bar-name">photoshop</div>
+              <div class="bar v100" data-value="100"></div>
+              <div class="bar-name">C</div>
+              <div class="bar v80" data-value="80"></div>
+              <div class="bar-name">C++</div>
+              <div class="bar v50" data-value="50"></div>
+            </div>
+            <div class="flex flex-xs-auto">
+              <img src="./img/lang_icon/photoshop.png" class="fav-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-lg-auto flex-fluid-sm-33">
+    <div class="frame z1 card aspectwrapper-2by3 illustrator">
+      <div class="content">
+        <div class="top z2 aspectwrapper-3by2">
+          <div class="content image" style="background-image: url('http://daikaibou.com/wp-content/uploads/2015/04/dc5d5465cdea660233b1e2c48ff11876_21151.jpg')"></div>
+          <a href="#" class="float-button z2">>></a>
+        </div>
+        <div class="status column between">
+          <div class="flex flex-xs-auto">
+            <div class="skill"><span>特技:</span> illustrator</div>
+          </div>
+          <div class="row bottom">
+            <div class="flex flex-xs-auto">
+              <div class="bars-title">使用言語</div>
+              <div class="bar-name">illustrator</div>
+              <div class="bar v100" data-value="100"></div>
+              <div class="bar-name">C</div>
+              <div class="bar v80" data-value="80"></div>
+              <div class="bar-name">C++</div>
+              <div class="bar v50" data-value="50"></div>
+            </div>
+            <div class="flex flex-xs-auto">
+              <img src="./img/lang_icon/illustrator.png" class="fav-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-lg-auto flex-fluid-sm-33">
+    <div class="frame z1 card aspectwrapper-2by3 swift">
+      <div class="content">
+        <div class="top z2 aspectwrapper-3by2">
+          <div class="content image" style="background-image: url('http://blog-imgs-37.fc2.com/t/e/l/teleani/smile03_00.jpg')"></div>
+          <a href="#" class="float-button z2">>></a>
+        </div>
+        <div class="status column between">
+          <div class="flex flex-xs-auto">
+            <div class="skill"><span>特技:</span> swift</div>
+          </div>
+          <div class="row bottom">
+            <div class="flex flex-xs-auto">
+              <div class="bars-title">使用言語</div>
+              <div class="bar-name">swift</div>
+              <div class="bar v100" data-value="100"></div>
+              <div class="bar-name">C</div>
+              <div class="bar v80" data-value="80"></div>
+              <div class="bar-name">C++</div>
+              <div class="bar v50" data-value="50"></div>
+            </div>
+            <div class="flex flex-xs-auto">
+              <img src="./img/lang_icon/swift.png" class="fav-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-lg-auto flex-fluid-sm-33">
+  </div>
+</div>
 ```
 */
 .frame.card{
@@ -233,17 +353,23 @@ ruby,php,c#,javascript ロゴあり
 .frame.card.ruby{
   background-color: #E91E63;
 }
-.frame.card.php{
+.frame.card.php, .frame.card.photoshop{
   background-color: #3f51b5;
 }
 .frame.card.csharp{
   background-color: #9c27b0;
 }
-.frame.card.javascript{
+.frame.card.javascript, .frame.card.illustrator{
   background-color: #ff9800;
 }
 .frame.card.html{
   background-color: #F44336;
+}
+.frame.card.css{
+  background-color: #8BC34A;
+}
+.frame.card.swift{
+  background-color: #FFC107;
 }
 .frame.card .status .bar.v100{
   width: 100%;
@@ -290,17 +416,23 @@ ruby,php,c#,javascript ロゴあり
 .frame.card.ruby .top .image{
   background-color: #AD1457;
 }
-.frame.card.php .top .image{
+.frame.card.php .top .image, .frame.card.photoshop .top .image{
   background-color: #283593;
 }
 .frame.card.csharp .top .image{
   background-color: #6a1b9a;
 }
-.frame.card.javascript .top .image{
+.frame.card.javascript .top .image, .frame.card.illustrator .top .image{
   background-color: #ef6c00;
 }
 .frame.card.html .top .image{
   background-color: #C62828;
+}
+.frame.card.html .top .image{
+  background-color: #558B2F;
+}
+.frame.card.swift .top .image{
+  background-color: #FF8FF0;
 }
 .frame.card .float-button {
   padding: 8px;
@@ -318,22 +450,28 @@ ruby,php,c#,javascript ロゴあり
   right: 24px;
   bottom: -36px;
 }
+
 .frame.card.ruby .float-button {
   background-color: #C2185B;
 }
-.frame.card.php .float-button {
+.frame.card.php .float-button, .frame.card.photoshop .float-button {
   background-color: #303f9f;
 }
 .frame.card.csharp .float-button {
   background-color: #7b1fa2;
 }
-.frame.card.javascript .float-button {
+.frame.card.javascript .float-button, .frame.card.illustrator .float-button{
   background-color: #f57c00;
 }
 .frame.card.html .float-button {
   background-color: #D32F2F;
 }
-
+.frame.card.css .float-button {
+  background-color: #689F38;
+}
+.frame.card.swift .float-button {
+  background-color: #FFA000;
+}
 .frame.card .status{
   padding: 16px;
   font-size: 12px;
@@ -360,17 +498,23 @@ ruby,php,c#,javascript ロゴあり
 .frame.card.ruby .status .bar{
   background-color: #AD1457;
 }
-.frame.card.php .status .bar{
+.frame.card.php .status .bar, .frame.card.photoshop .status .bar{
   background-color: #283593;
 }
 .frame.card.csharp .status .bar{
   background-color: #6a1b9a;
 }
-.frame.card.javascript .status .bar{
+.frame.card.javascript .status .bar, .frame.card.illustrator .status .bar{
   background-color: #ef6c00;
 }
 .frame.card.html .status .bar{
   background-color: #C62828;
+}
+.frame.card.css .status .bar{
+  background-color: #558B2F;
+}
+.frame.card.swift .status .bar{
+  background-color: #FF8F00;
 }
 
 
