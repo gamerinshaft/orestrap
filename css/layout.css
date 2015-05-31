@@ -28,6 +28,7 @@ header.header{
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
+  z-index: 100;
 }
 header.header:after {
   display: block;
