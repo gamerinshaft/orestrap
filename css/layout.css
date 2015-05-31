@@ -228,7 +228,7 @@ ruby,php,c#,javascript ロゴあり
 .frame.card .status .bar.v10{
   width: 10%;
 }
-.frame.card .status .bar.10{
+.frame.card .status .bar.0{
   width: 0%;
 }
 
@@ -351,7 +351,7 @@ cardの影がz1からz3に変わっていることに注意。ボタンは無く
             <div class="frame z3 card aspectwrapper-2by3 ruby">
               <div class="content">
                 <div class="top z2 aspectwrapper-3by2">
-                  <div class="content image" style="background-image: url('http://blog-imgs-46-origin.fc2.com/k/o/m/komopes/s11_scene02.jpg')"></div>
+                  <div class="content image" style="background-image: url('http://www.tag.co.jp/blog/wp-content/uploads/2013/10/3d06df5ec936d0132a9c911eafd6dc7f.jpg')"></div>
                 </div>
                 <div class="status column between">
                   <div class="flex flex-xs-auto">
