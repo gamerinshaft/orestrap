@@ -5,7 +5,9 @@
 
 ## Container
 
-一番大きな枠組みのcontainer
+一番大きな枠組みのcontainer、
+ブラウザのwidthに合わせて、適宜大きさが変化する。
+基本的にトップレベルで使用する。
 
 ```
 <div class="container">
@@ -45,6 +47,10 @@
 /*
 ## フレキシブルデザイン
 
+twitter bootstrap と同じ要領で、
+flexを用いたマークアップで、行や列を表現できるようにしている。<br>
+col-*-autoは、*に当てはまる条件下において、余白部分を穴埋めしてくれるように働く。<br>
+もし複数 col-*-autoがある場合、それらで余白を埋めあえるよう個数で余白を割った大きさになる。
 ```
 <div class="row">
   <div class="flex flex-xs-auto">
@@ -292,6 +298,23 @@
 </div>
 
 ```
+
+## フレキシブルを用いて縦横中央に要素を配置する
+
+```
+<div class="testbox7">
+  <div class="row" style="height: 100%;">
+    <div class="flex flex-xs-auto"></div>
+    <div class="column">
+      <div class="flex flex-xs-auto"></div>
+      hello
+      <div class="flex flex-xs-auto"></div>
+    </div>
+    <div class="flex flex-xs-auto"></div>
+  </div>
+</div>
+```
+
 ## 特定の条件下で見えなくする
 
 ```

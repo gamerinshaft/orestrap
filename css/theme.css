@@ -30,10 +30,10 @@
 }
 
 .login-wrap.animate .visibleContent.testbox5, .login-wrap.animate .login-mask.testbox5, .login-wrap.animate .login-button.testbox5, .login-wrap.animate .login-button.testbox5:after .login-wrap.animate .visibleContent.testbox5{
-  animation-iteration-count: infinite !important;
-  -webkit-animation-iteration-count: infinite !important;
-  animation-duration: 8s !important;
-  -webkit-animation-duration: 8s !important;
+/*  animation-iteration-count: infinite !important;
+  -webkit-animation-iteration-count: infinite !important;*/
+  animation-duration: 0.2s !important;
+  -webkit-animation-duration: 0.2s !important;
   animation-direction: normal !important;
   -webkit-animation-direction: normal !important;
   animation-delay: 2s;

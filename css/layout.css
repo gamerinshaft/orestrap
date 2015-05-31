@@ -1,20 +1,16 @@
 /*
 # Layout
 
-## 縦横中央に要素を配置する
+## Header
+
+ヘッダー、レスポンシブ対応はangular material に任せるので、
+ここでは静的なマークアップのみ実装する。
 
 ```
-<div class="testbox7">
-  <div class="row" style="height: 100%;">
-    <div class="flex flex-xs-auto"></div>
-    <div class="column">
-      <div class="flex flex-xs-auto"></div>
-      hello
-      <div class="flex flex-xs-auto"></div>
-    </div>
-    <div class="flex flex-xs-auto"></div>
-  </div>
-</div>
+<header class="header">
+  <div class=
+  <p></p>
+</header>
 ```
 
 ## Card
@@ -39,7 +35,7 @@ ruby,php,c#,javascript ロゴあり
           </div>
           <div class="row bottom">
             <div class="flex flex-xs-auto">
-              <div class="bars-title">使用頻度:</div>
+              <div class="bars-title">使用言語</div>
               <div class="bar-name">Ruby</div>
               <div class="bar v100" data-value="100"></div>
               <div class="bar-name">Php</div>
@@ -68,7 +64,7 @@ ruby,php,c#,javascript ロゴあり
           </div>
           <div class="row bottom">
             <div class="flex flex-xs-auto">
-              <div class="bars-title">使用頻度:</div>
+              <div class="bars-title">使用言語</div>
               <div class="bar-name">Wordpress</div>
               <div class="bar v100" data-value="100"></div>
               <div class="bar-name">Php</div>
@@ -97,7 +93,7 @@ ruby,php,c#,javascript ロゴあり
           </div>
           <div class="row bottom">
             <div class="flex flex-xs-auto">
-              <div class="bars-title">使用頻度:</div>
+              <div class="bars-title">使用言語</div>
               <div class="bar-name">C#</div>
               <div class="bar v100" data-value="100"></div>
               <div class="bar-name">C</div>
@@ -122,11 +118,11 @@ ruby,php,c#,javascript ロゴあり
         </div>
         <div class="status column between">
           <div class="flex flex-xs-auto">
-            <div class="skill"><span>特技:</span>セッションハイジャック</div>
+            <div class="skill"><span>特技:</span>sqlインジェクション</div>
           </div>
           <div class="row bottom">
             <div class="flex flex-xs-auto">
-              <div class="bars-title">使用頻度:</div>
+              <div class="bars-title">使用言語</div>
               <div class="bar-name">Javascript</div>
               <div class="bar v100" data-value="100"></div>
               <div class="bar-name">go</div>
@@ -155,7 +151,7 @@ ruby,php,c#,javascript ロゴあり
           </div>
           <div class="row bottom">
             <div class="flex flex-xs-auto">
-              <div class="bars-title">使用頻度:</div>
+              <div class="bars-title">使用言語</div>
               <div class="bar-name">C#</div>
               <div class="bar v100" data-value="100"></div>
               <div class="bar-name">C</div>
@@ -205,6 +201,7 @@ ruby,php,c#,javascript ロゴあり
 .frame.card .top .image{
   background-size: cover;
   background-position: center;
+  background-color: white;
 }
 .frame.card .float-button {
   padding: 8px;
@@ -310,7 +307,7 @@ cardの影がz1からz3に変わっていることに注意。ボタンは無く
                   </div>
                   <div class="row bottom">
                     <div class="flex flex-xs-auto">
-                      <div class="bars-title">使用頻度:</div>
+                      <div class="bars-title">使用言語</div>
                       <div class="bar-name">Ruby</div>
                       <div class="bar v100" data-value="100"></div>
                       <div class="bar-name">Php</div>
