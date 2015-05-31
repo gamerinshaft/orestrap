@@ -7,7 +7,7 @@
 ここでは静的なマークアップのみ実装する。
 
 ```
-<header class="header row bottom">
+<header class="header row z3 bottom">
   <div class="flex flex-xs-auto">
     <div class="brand"><span>H</span>untching</div>
   </div>
@@ -45,6 +45,10 @@ header.header .hunt{
   z-index: 8;
   text-align: center;
   font-size: 26px;
+}
+header.header .brand{
+  -webkit-font-smoothing: antialiased;
+  padding: 0px 8px;
 }
 header.header .brand span{
   font-size: 24px;
