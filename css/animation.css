@@ -61,17 +61,18 @@ login-wrapと、中身の大きさは合わせること。
   width: 200px;
   height: 300px;
   position: relative;
+  margin-left: -127px;
 }
 .login-mask{
   overflow: hidden;
-  width: 40px;
-  height: 40px;
+  width: 56px;
+  height: 56px;
   background-color: rgb(238,238,238);
   position: absolute;
   z-index: 20;
   border-radius: 50%;
-  right: 0;
-  bottom: 0;
+  right: 10px;
+  bottom: 7px;
 }
 .login-wrap.animate .login-mask{
   animation-name: moveLoginMask;
@@ -109,10 +110,13 @@ login-wrapと、中身の大きさは合わせること。
   position: absolute;
   z-index: 21;
   border-radius: 50%;
-  right: 0;
+  right: 0px;
   bottom: 0;
-  background-color: #AD1457;
   overflow: hidden;
+  background-color: rgb(255,64,129);
+  height: 56px;
+  width: 56px;
+  margin: 6px 8px;
 }
 .login-wrap.animate .login-button{
   animation-name: moveLoginButton;
